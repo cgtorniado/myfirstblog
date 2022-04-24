@@ -29,10 +29,10 @@ const ArticleSinglePage = ({ articles }) => {
                             <h1 className="display-5 fw-bold text-primary pt-5" key={key}>{article.title}</h1>
                             <p className='pb-5'>Category:{article.category}</p>
                            
-                            <p className="col-md-8 fs-3 p-5" style={{ backgroundImage: `url(${article.photo})`, width: "80vw", height: "40vh", margin: "auto", backgroundSize:"cover",color:"white", textShadow:"2px 2px 0px #7a7a7a" }}>{article.featuredtext}</p>
+                            <p className="col-md-8 fs-3" style={{ backgroundImage: `url(${article.photo})`, width: "80vw", height: "40vh", margin: "auto", backgroundSize:"cover",color:"white", textShadow:"2px 2px 0px #7a7a7a" }}>{article.featuredtext}</p>
 
-                            <div className='p-5'>
-                            <p className="p-5 fs-3"><div className='new-line' style={{whiteSpace:"pre-line"}}>{paragraph}</div></p>
+                            <div className='p-2 p-md-5'>
+                            <p className="p-2 p-md-5 fs-3"><div className='new-line' style={{whiteSpace:"pre-line"}}>{paragraph}</div></p>
                             </div>
 
                             <nav aria-label="breadcrumb">
