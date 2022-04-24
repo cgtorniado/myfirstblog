@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <div className="px-5">
-          <p className="lead px-5 pt-3 fs-3">Hi, I'm Cleo and I love doing skincare and currently practicing how to do my make-up. Let's take this journey together
+          <p className="lead px-1 px-lg-5 pt-3 fs-3">Hi, I'm Cleo and I love doing skincare and currently practicing how to do my make-up. Let's take this journey together
           </p>
         </div>
       </div>
