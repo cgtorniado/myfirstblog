@@ -1,13 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #5e616b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fefefe;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+div.ui.menu {
+  padding: 0 !important;
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  background-color: #e5babf;
+  z-index: 100;
+}
+div.ui.menu span.item {
+  border: none;
+}
+div.ui.menu span.item h1 {
+  color: white;
+}
+div.ui.menu span.item {
+  color: white;
+}
+
+.text-primary {
+  color: #c07d85 !important;
+}
+
+.text-dark {
+  color: #5e616b !important;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Images/herobackground.jpeg");
+  background-size: cover;
+}
+
+.btn-dark {
+  background-color: #5e616b;
+}
+
+h1 {
+  font-family: "Square Peg", cursive;
+  text-shadow: 0px 2px 8px rgba(201, 201, 201, 0.168);
+}
+
+html, body {
+  height: 100%;
+}
+
+.headerimg3 {
+  width: 100vw;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#root div.ui.middle.aligned.stackable.grid.container.py-5 {
+  background-color: #ffecf5 !important;
+}
+
+h3.ui.header.herobot {
+  color: #c07d85;
+}
+
+.ui.huge.button {
+  background-color: #c07d85;
+  color: white;
+  box-shadow: 0px 15px 12px 6px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 3px 6px 6px rgba(222, 157, 157, 0.06);
+  -moz-box-shadow: 0px 3px 6px 6px rgba(0, 0, 0, 0.06);
+}
+.ui.huge.button:hover {
+  background-color: #e5babf;
+}
+
+span.ui.large.button, .ui.form {
+  background-color: #e5babf;
+  color: white;
+  box-shadow: 0px 15px 12px 6px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 3px 6px 6px rgba(222, 157, 157, 0.06);
+  -moz-box-shadow: 0px 3px 6px 6px rgba(0, 0, 0, 0.06);
+}
+span.ui.large.button:hover, .ui.form:hover {
+  background-color: #c07d85;
+}
+
+.notfound {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: #e5babf;
 }

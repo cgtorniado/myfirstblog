@@ -1,0 +1,134 @@
+$primary-color:#e5babf;
+$primary-dark:#c07d85;
+$secondary-color:#ffecf5;
+$dark-color:#5e616b;
+$bg-color:#fefefe;
+
+@mixin  textshadow {
+    text-shadow: 0px 2px 8px rgba(201, 201, 201, 0.168);
+}
+
+@mixin  boxshadow {
+  box-shadow: 0px 15px 12px 6px rgba(0,0,0,0.06);
+-webkit-box-shadow: 0px 3px 6px 6px rgba(222, 157, 157, 0.06);
+-moz-box-shadow: 0px 3px 6px 6px rgba(0,0,0,0.06);
+  
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:$dark-color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $bg-color;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  div.ui.menu{
+    padding:0 !important;
+    margin:0;
+    position:fixed;
+    width: 100vw;
+    background-color: $primary-color;
+    z-index: 100;
+    
+    span.item{
+      border:none;
+
+      h1{
+        color:white;
+      }
+    }
+
+    span.item{
+      color:white;
+    }
+  }
+  
+  .text-primary{
+    color:$primary-dark !important;
+  }
+  
+  .text-dark{
+    color:$dark-color !important;
+  }
+
+  .hero{
+    width:100vw;
+    height:100vh;
+    background-image: url("./Images/herobackground.jpeg");
+    background-size: cover;
+  }
+  
+
+  .btn-dark{
+    background-color:$dark-color;
+  }
+
+  h1{
+    font-family: 'Square Peg', cursive;
+      @include textshadow;
+  }
+
+  html, body { 
+    height: 100% 
+  }
+
+  .headerimg3 {
+    width:100vw;
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  #root div.ui.middle.aligned.stackable.grid.container.py-5{
+    background-color: $secondary-color !important;
+  }
+
+  h3.ui.header.herobot{
+    color:$primary-dark;
+  }
+
+  .ui.huge.button{
+    background-color: $primary-dark;
+    color:white;
+    @include boxshadow;
+
+    &:hover{
+      background-color: $primary-color;
+    }
+  }
+
+  span.ui.large.button, .ui.form{
+    background-color: $primary-color;
+    color:white;
+    @include boxshadow;
+
+    &:hover{
+      background-color: $primary-dark;
+    }
+  }
+
+  .notfound{
+    width:100vw;
+    height:100vh;
+  }
+
+  a{
+    color:$primary-color
+  }
