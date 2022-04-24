@@ -31,8 +31,8 @@ const ArticleSinglePage = ({ articles }) => {
                            
                             <p className="col-md-8 fs-3" style={{ backgroundImage: `url(${article.photo})`, width: "80vw", height: "40vh", margin: "auto", backgroundSize:"cover",color:"white", textShadow:"2px 2px 0px #7a7a7a" }}>{article.featuredtext}</p>
 
-                            <div className='p-2 p-md-5'>
-                            <p className="p-2 p-md-5 fs-3"><div className='new-line' style={{whiteSpace:"pre-line"}}>{paragraph}</div></p>
+                            <div className='p-1 p-lg-5'>
+                            <p className="p-1 p-lg-5 fs-3"><div className='new-line' style={{whiteSpace:"pre-line"}}>{paragraph}</div></p>
                             </div>
 
                             <nav aria-label="breadcrumb">
